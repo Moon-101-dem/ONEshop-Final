@@ -1,6 +1,6 @@
 *{box-sizing: border-box;}
-body{font-family:Arial;margin:0;background:#f5f5f5;padding-top: 80px;}
-header{background:#111;color:#fff;padding:0 60px;display: flex; align-items: center;
+body{font-family:Arial;margin:0;background:#F5f6f7;padding-top: 80px;}
+header{background:#000f08;color:#fff;padding:0 60px;display: flex; align-items: center;
     justify-content: space-between;top: 0; right: 0; left: 0; width: 100; position: fixed; z-index: 1000;}
 header h1{color: white; font-weight: bold;}
 header h1{
@@ -8,24 +8,24 @@ header h1{
 }
 header h1:hover{
     transform: scale(1.07);
-    box-shadow: 0 15px 25px rgba(0, 0, 0,0.2 );
-    color: #2563eb;}
+    box-shadow: 0 15px 25px #F5f6f7(0, 0, 0,0.2 );
+    color: #F5f6f7}
 
 header nav a{
-    color: #fff;
+    color: #F5f6f7;
     margin-left: 40px;
     text-decoration: none;
     font-size: 20px;
     position: relative;
 }
 header nav a:hover{
-    color: #2563eb;
+    color: #F5f6f7;
 }
 header nav a::after{
     content: '';
     width: 0; 
     height: 3px;
-    background: #2563eb;
+    background: #F5f6f7;
     position: absolute;
     left: 0;
     bottom: -6px;
@@ -39,7 +39,7 @@ header nav a:hover::after{
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #f2f2f2;
+    background: #F5f6f7;
     font-family: Arial, sans-serif;
     width: 100%;
     display: flex;
@@ -50,9 +50,9 @@ header nav a:hover::after{
     flex-direction: column;
     background: white;
     padding: 40px;
-    width: 400px;
+    width: 450px;
     border-radius: 15px;
-    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 10px 25px #2b2e33(0, 0, 0, 0.1);
     text-align: center;
 }
 
@@ -76,7 +76,7 @@ header nav a:hover::after{
 }
 .contact-form input:focus,
 .contact-form textarea:focus{
-    border-color: #4a90e2;
+    border-color: #2b2e33;
 }
 
 .contact-form button {
@@ -85,7 +85,7 @@ header nav a:hover::after{
     margin-top: 10px;
     border: none;
     border-radius: 8px;
-    background: linear-gradient(to right, #1e3c72, #2a5298);
+    background: linear-gradient(to bottom, #2b2e33, #2b2e33);
     color: white;
     font-size: 16px;
     cursor: pointer;
